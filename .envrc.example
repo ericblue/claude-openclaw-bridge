@@ -1,0 +1,4 @@
+export OPENCLAW_BASE_URL=http://127.0.0.1:18789/v1
+export OPENCLAW_MODEL="openclaw:main"
+export OPENCLAW_API_KEY=your_key_here
+export OPENCLAW_ASSISTANT_NAME="Claudette"
