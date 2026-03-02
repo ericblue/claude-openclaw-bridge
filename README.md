@@ -10,7 +10,7 @@ Relays user requests to a remote OpenClaw instance and returns responses verbati
 
 - "Ask OpenClaw ..."
 - "OpenClaw mode on" / "OpenClaw mode off" (relay mode toggle)
-- `/claude-openclaw-bridge`
+- `/openclaw-bridge`
 
 ## Environment Variables
 
@@ -19,7 +19,7 @@ Relays user requests to a remote OpenClaw instance and returns responses verbati
 | `OPENCLAW_BASE_URL` | yes | `http://127.0.0.1:18789/v1` |
 | `OPENCLAW_MODEL` | yes | `openclaw:main` |
 | `OPENCLAW_API_KEY` | yes | `sk-your-key` |
-| `OPENCLAW_ASSISTANT_NAME` | no | `Claudia` (defaults to `OpenClaw`) |
+| `OPENCLAW_ASSISTANT_NAME` | no | `YOUR_ASSISTANT_NAME` (defaults to `OpenClaw`) |
 
 Set these in your shell profile or `.env` before launching Claude Code.
 
@@ -29,7 +29,7 @@ Set these in your shell profile or `.env` before launching Claude Code.
 make install
 ```
 
-This copies `SKILL.md` to `~/.claude/skills/claude-openclaw-bridge/`.
+This copies `SKILL.md` to `~/.claude/skills/openclaw-bridge/`.
 
 To remove:
 

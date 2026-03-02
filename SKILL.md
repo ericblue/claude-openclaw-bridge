@@ -1,5 +1,5 @@
 ---
-name: claude-openclaw-bridge
+name: openclaw-bridge
 description: >-
   Bridge to an OpenClaw agent. Use when user says "Ask OpenClaw",
   "OpenClaw mode on/off", or wants to relay a question or task to the
